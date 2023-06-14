@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root {
+
+    font-size: 62.5%;
+}
+
+body {
+    background: linear-gradient(287.56deg, #97a9b1 0%, #506fa0 100%);
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    font-family: 'Kalam', cursive, sans-serif;
+}
+
+
+button {
+
+    font-family: 'Kalam', cursive, sans-serif;
+    background-color: #39396b;
+    color: rgb(136, 131, 131);
+    border-radius: 0 .4rem .4rem 0;
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition: background .3s;
+}
+
+button:hover {
+    background-color: #282836;
+
+    
+}
+
+.hide {
+    display: none;
+
+
+}
+main {
+    
+    background: #8cbbce;
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+    border-radius: 0.6rem;
+    padding: 4.8rem 6.4rem 6.4rem;
+
+    width: min(42.8rem, 90%);
+    margin-top: -12rem;
+
+    text-align: center;
+    
+}
+/* screen1 */
+h1 {
+    font-size: 3.0rem;
+    margin-bottom: 1.2rem;
+    color: #34355B;
+}
+
+p {
+    font-size: 1.8rem;
+    color: #34355B;
+    opacity: 0.8;
+}
+
+form {
+
+    margin-top: 4.2rem;
+    display: flex;
+    justify-content: center;
+}
+
+input, button {
+
+    border: none;
+    padding: 1.6rem;
+    border-radius: .4rem;
+}
+
+input {
+    background-color: #6081a7;
+    width: 7rem;
+}
+
+
+
+/* screen2 */
+
+h2 {
+
+    font-size: 2.8rem;
+    margin-bottom: 2.8rem;
+}
+
+.screen2 button {
+    border-radius: .4rem;
+}
